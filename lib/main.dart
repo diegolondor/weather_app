@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:animate_do/animate_do.dart';
 
 void main() => runApp(const MyApp());
 
@@ -13,8 +14,10 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Material App Bar'),
         ),
-        body: const Center(
-          child: Text('Hello World'),
+        body: Center(
+          child: FadeInRight(
+            child: const Text('holaa'),
+          ),
         ),
       ),
     );
