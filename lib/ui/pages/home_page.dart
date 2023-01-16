@@ -46,7 +46,10 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Weather App')),
+      appBar: AppBar(
+        title: const Text('Weather App'),
+        elevation: 6,
+      ),
       body: Stack(children: [
         Column(
           children: [
@@ -64,7 +67,6 @@ class _HomePageState extends State<HomePage> {
       ]),
       floatingActionButton:
           LocationButton(onPressed: _onPressedFloatingActionButton),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
 
