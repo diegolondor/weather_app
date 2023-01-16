@@ -1,8 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/services.dart';
-
-import '../models/city.dart';
+import 'package:weather_app/models/city.dart';
 
 class CitiesRepository {
   Future<List<City>> getCities() async {

@@ -1,10 +1,22 @@
 [
     {
         "city":"Medellin",
-        "country":"Colombia"
+        "country":"Colombia",
+        "path": "assets/medellin.png"
     },
     {
         "city":"Envigado",
-        "country":"Colombia"
+        "country":"Colombia",
+        "path": "assets/envigado.png"
+    },
+    {
+        "city":"Barranquilla",
+        "country":"Colombia",
+        "path": "assets/barranquilla.png"
+    },
+    {
+        "city":"Ipiales",
+        "country":"Colombia",
+        "path": "assets/ipiales.png"
     }
 ]
