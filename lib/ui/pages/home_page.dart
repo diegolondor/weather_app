@@ -9,7 +9,7 @@ import '../../bloc/cities_bloc.dart';
 import '../../bloc/location_bloc.dart';
 import '../../bloc/weather_bloc.dart';
 import '../../models/city.dart';
-import '../../models/weatherData.dart';
+import '../../models/weather_data.dart';
 import '../../repository/cities_repository.dart';
 import '../../repository/weather_repository.dart';
 

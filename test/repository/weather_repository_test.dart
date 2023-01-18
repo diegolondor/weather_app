@@ -4,7 +4,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart';
 import 'package:http/testing.dart';
 import 'package:weather_app/api/weather_api.dart';
-import 'package:weather_app/models/weatherData.dart';
+import 'package:weather_app/models/weather_data.dart';
 import 'package:weather_app/repository/weather_repository.dart';
 
 import '../data.dart';
